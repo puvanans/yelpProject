@@ -12,7 +12,9 @@
 
     curl_setopt($handle,CURLOPT_URL,$url);
 
-    curl_setopt($handle,CURLOPT_SSL_VERIFYPEER,false);
+    //curl_setopt($handle,CURLOPT_SSL_VERIFYPEER,false);
+        //SSL certificate verification is turned off in this case to produce result
+        //will be focussed on obtaining certificates today.
     
     $result = curl_exec($handle);
 
