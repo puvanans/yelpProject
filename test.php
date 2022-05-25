@@ -1,26 +1,6 @@
 
 <?php 
     
-    /*
-    
-    This is test page for trying out newly learned techniques
-
-    echo "This be the test page";
-    echo "<br>";
-
-    $url = 'https://www.google.com';
-
-    $handle = curl_init();
-
-    curl_setopt($handle,CURLOPT_URL,$url);
-    
-    $result = curl_exec($handle);
-
-    curl_close($handle);
-    
-    print_r($result);
-
-    */
 
     $API_key = "6k3RxTH6fmFnauS3YV8uHGwgzKDadRY7RD6q8KpD1JxUjWD3HlijGm3VVpVGxWLcHPONwcxE44R4ThHkqLVC7qdIecPDXguJYat5E4h_OUmzwo5lGvJl6cUs5x2JYnYx"
             //unique id provided by the yelp developer account
