@@ -2,11 +2,11 @@
 <?php 
     
 
-    $API_key = "6k3RxTH6fmFnauS3YV8uHGwgzKDadRY7RD6q8KpD1JxUjWD3HlijGm3VVpVGxWLcHPONwcxE44R4ThHkqLVC7qdIecPDXguJYat5E4h_OUmzwo5lGvJl6cUs5x2JYnYx"
+    $API_key = "6k3RxTH6fmFnauS3YV8uHGwgzKDadRY7RD6q8KpD1JxUjWD3HlijGm3VVpVGxWLcHPONwcxE44R4ThHkqLVC7qdIecPDXguJYat5E4h_OUmzwo5lGvJl6cUs5x2JYnYx";
             //unique id provided by the yelp developer account
             //https://www.yelp.com/developers/v3/manage_app
 
-    assert($API_key,"Please enter in your API key");
+    //assert($API_key,"Please enter in your API key");
             // This is check if the API key has been entered or not
 
             
@@ -29,6 +29,17 @@
     $default_Location = "Philadelphia, PA";
 
     $search_Limit = 5;
+
+    /*
+    Function request is built to send request to the API itself and return the response
+
+    parameters
+     $host - The domain host of the API
+     $path - The path of the API after the domain (depends on individual API requests)
+     $url_params -  an Array of query-string parameters (query string are additional info (keys&fields)passed along with the url)
+
+     return - The JSON response form the response
+    */
     
 
 
